@@ -1,8 +1,68 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  color: #620455;
+  background-color:#FACDE6;
 }
 
 a {
   color: #00B7FF;
 }
+
+hr {
+    border: none;
+    height: 3px;
+    background-color: #620455;
+}
+
+button[type="submit"] {
+    background-color: #C908AF;
+    color: white;
+    padding: 2 4 4 2px;
+}
+
+.edit-btn {
+    background-color: #C908AF;
+    color: white;
+    padding: 2 4 4 2px;
+}
+
+button.delete-btn {
+    background-color: #C908AF;
+    color: white;
+    padding: 2 4 4 2px;
+}
+
+.cancel-btn {
+    background-color: #C908AF;
+    color: white;
+}
+
+.error-message {
+    color: #620455;
+    background-color: #FFFFFF;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.task-actions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 6px;
+}
+
+.header-image {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+}
+
+.header-image img {
+    width: 180px;
+    height: auto;
+    border-radius: 8px;
+}
+
