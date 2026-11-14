@@ -15,8 +15,8 @@ Users can:
 - Delete tasks.
 - The application also prevents users from submitting blank tasks. I used Pug for the webpage templates and CSS to improve the appearance of the application.
 
-## Viewing the Website
-To view the website please try to go the the forwarded address in Port 3000. If there is no address linked to the Port then do the following:
+# Viewing the Website
+To view the website please try to go to the link under forwarded address in Port 3000. If there is no address linked to the Port then do the following:
 
 ## Database Setup
 
@@ -49,6 +49,3 @@ Start the application using the following command:
 ```bash
 npm start
 ```
-
-Access the Application
-On GitHub Codespaces, you can access the application by forwarding port 3000. Open the forwarded port in your browser to view the Task Manager application.
